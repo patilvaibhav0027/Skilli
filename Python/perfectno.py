@@ -21,3 +21,16 @@ def checkPerfectNumber(num: int) -> bool:
         return True
     else: 
         return False
+
+
+    # def checkPerfectNumber(num: int) -> bool:
+    # sum=1
+    # if num<=1:
+    #     for i in range(2, (num//2)+1):
+    #         if(num%1==0):
+    #             sum+=i
+    #             if (i != num//i):
+    #                 sum += num//i
+    #                 return sum == num
+    # return False
+ 
